@@ -1,0 +1,6 @@
+---
+Name: testsessionroutes
+---
+SilverStripe\Control\Director:
+  rules:
+    'dev/testsession': 'TestSessionController'

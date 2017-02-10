@@ -1,0 +1,8 @@
+---
+Name: requestprocessors
+---
+SilverStripe\Core\Injector\Injector:
+  RequestProcessor:
+    properties:
+      filters:
+        - '%$TestSessionRequestFilter'

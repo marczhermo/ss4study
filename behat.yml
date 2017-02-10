@@ -15,6 +15,7 @@ default:
       # Can be set via environment variables or _ss_environment.php/$_FILE_TO_URL_MAPPING as well.
       # base_url:  http://localhost/
       files_path: %behat.paths.base%/framework/tests/behat/features/files/
+      base_url: http://www.ss4.app/
       default_session: selenium2
       javascript_session: selenium2
       selenium2:

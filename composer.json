@@ -12,7 +12,8 @@
 		"silverstripe/graphql": "0.2.x-dev"
 	},
 	"require-dev": {
-		"phpunit/PHPUnit": "~4.8"
+		"phpunit/PHPUnit": "~4.8",
+		"silverstripe/behat-extension": "^2.2"
 	},
 	"extra": {
 		"branch-alias": {
