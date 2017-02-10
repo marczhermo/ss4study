@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "dcd484678ae60acf301ed748453f8f01",
-    "content-hash": "4dde9e58e123ffc565fc06ead1fde5f6",
+    "hash": "e48953a9ee0d91e5a64f9141aeb9b20d",
+    "content-hash": "8fafbfba4ee142dd50d5e72aac1b52f0",
     "packages": [
         {
             "name": "composer/installers",
@@ -2172,6 +2172,45 @@
             "time": "2015-10-02 06:51:40"
         },
         {
+            "name": "se/selenium-server-standalone",
+            "version": "v2.53.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sveneisenschmidt/selenium-server-standalone.git",
+                "reference": "ef4eea9c99efb9c0e3084e9cae625662ccd43361"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sveneisenschmidt/selenium-server-standalone/zipball/ef4eea9c99efb9c0e3084e9cae625662ccd43361",
+                "reference": "ef4eea9c99efb9c0e3084e9cae625662ccd43361",
+                "shasum": ""
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~4.0"
+            },
+            "bin": [
+                "bin/selenium-server-standalone"
+            ],
+            "type": "library",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache 2.0"
+            ],
+            "authors": [
+                {
+                    "name": "Sven Eisenschmidt",
+                    "email": "sven.eisenschmidt@gmail.com"
+                }
+            ],
+            "description": "Composer distribution of Selenium Server Standalone, the browser automation framework. Adds a executable to your composer bin directory.",
+            "homepage": "https://github.com/sveneisenschmidt/selenium-server-standalone",
+            "keywords": [
+                "selenium",
+                "testing"
+            ],
+            "time": "2016-07-01 14:16:52"
+        },
+        {
             "name": "sebastian/comparator",
             "version": "1.2.4",
             "source": {
@@ -3103,7 +3142,8 @@
         "silverstripe/reports": 20,
         "silverstripe/siteconfig": 20,
         "silverstripe/asset-admin": 20,
-        "silverstripe/graphql": 20
+        "silverstripe/graphql": 20,
+        "se/selenium-server-standalone": 0
     },
     "prefer-stable": true,
     "prefer-lowest": false,

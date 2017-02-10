@@ -13,7 +13,8 @@
 	},
 	"require-dev": {
 		"phpunit/PHPUnit": "~4.8",
-		"silverstripe/behat-extension": "^2.2"
+		"silverstripe/behat-extension": "^2.2",
+		"se/selenium-server-standalone": "2.x@stable"
 	},
 	"extra": {
 		"branch-alias": {
